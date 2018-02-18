@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgtest"
+    tools:context="com.example.centaepoint.lokronguide.ScoreActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvScore"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#fff"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:text="ข้อ1. คำตอบที่ถูกคือ 1.1-6.4 องศาเซลเซียส\nข้อ 2. คำตอบที่ถูกคือ ก๊าซเรือนกระจก\nข้อ 3. คำตอบที่ถูกคือ การเผาผลาญถ่านหินและเชื้อเพลิง\nข้อ 4. คำตอบที่ถูกคือ รังสีของดวงอาทิตย์ถูกกักเก็บอยู่บนโลก\nข้อ 5. คำตอบที่ถูกคือ อุณหภูมิเปลี่ยนแปลงอย่างรวดเร็ว\nข้อ 6. คำตอบที่ถูกคือ ป่าไม้ถูกทำลายพันธ์พืชบางชนิดสูญพันธ์\nข้อ 7. คำตอบที่ถูกคือ น้ำทะเลหนุนสูงบริเวณปากแม่น้ำ\nข้อ 8. คำตอบที่ถูกคือ ถูกทุกข้อที่กล่าวมา\nข้อ 9. คำตอบที่ถูกคือ ปริมาณน้ำทั่วโลกสูงขึ้น\nข้อ 10. คำตอบที่ถูกคือ ทำให้สัตว์นำปรับตัวไม่ได้และเสียชีวิตในที่สุด\nข้อ 11.คำตอบที่ถูกคือ เป็นโรคท้องล่วงจาการรับประทานของที่สกปรก\nข้อ 12. คำตอบที่ถูกคือ ภัยพิบัติที่รุนแรงเกิดความเสียหายต่อระบบเศรษฐกิจและความไม่เชื่อมั่นของผู้ลงทุน\nข้อ 13. คำตอบที่ถูกคือ ซื้อของโดยพกถุงผ้าไว้ใส่ของ\nข้อ 14. คำตอบที่ถูกคือ ปั่นจักรยานไปหาเพื่อน\nข้อ 15. คำตอบที่ถูกคือ ใช้ผ้าเช็ดหน้าส่วนตัวที่พกมา\nข้อ 16. คำตอบที่ถูกคือ ดึงปลั๊กสายชาร์จเมื่อชาร์จโทรศัพท์เต็มแล้ว\nข้อ 17. คำตอบที่ถูกคือ ปลูกต้นไม้\nข้อ 18. คำตอบที่ถูกคือ อุณหภูมิเพิ่มสูงขึ้นเกิดความเสี่ยงจากภัยธรรมชาติ\nข้อ 19. คำตอบที่ถูกคือ ชวนเพื่อนมาติวหนังสือที่สวนสาธารณะใกล้บ้าน\nข้อ 20. คำตอบที่ถูกคือ โรงงานอุสาหกรรมเกือบทุกแห่งไม่มีการควบคุมการปล่อยมลพิษ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

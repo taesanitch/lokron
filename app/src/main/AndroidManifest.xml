@@ -13,7 +13,7 @@
         <activity
             android:name=".LoginActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-            android:windowSoftInputMode="stateAlwaysVisible"></activity>
+            android:windowSoftInputMode="stateAlwaysVisible" />
         <activity android:name=".MenuActivity" />
         <activity android:name=".AboutActivity" />
         <activity
@@ -33,7 +33,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TestActivity"></activity>
+        <activity android:name=".TestActivity" />
+        <activity android:name=".ScoreActivity"></activity>
     </application>
 
 </manifest>

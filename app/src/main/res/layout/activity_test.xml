@@ -6,43 +6,135 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.centaepoint.lokronguide.TestActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#333"
+        android:background="@drawable/bgtest"
         android:orientation="vertical">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="asdasd"
-            android:layout_marginTop="30dp"
-            android:textColor="#fff"
-            android:textSize="20sp"
-            android:layout_gravity="center"
-            />
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:background="#fff"
-            android:layout_marginTop="10dp"/>
-        <LinearLayout
+
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="20dp"
-            android:gravity="center">
+            android:layout_marginTop="30dp">
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="แบบทดสอบภาวะโลกร้อน"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:text="0s"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="#fff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
                 android:text="dasd"
                 android:textColor="#fff"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
                 android:orientation="vertical">
 
+                <Button
+                    android:id="@+id/ans1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="#3efdfdfd"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/ans2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="#3efdfdfd"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/ans3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="#3efdfdfd"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/ans4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:background="#3efdfdfd"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
             </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="Score :"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btCheckAns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="#3efdfdfd"
+                android:text="ตรวจคำตอบ"
+                android:textColor="#fff" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
