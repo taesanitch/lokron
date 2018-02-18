@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.centaepoint.lokronguide.OtherCauseActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_other"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/bg_other_cause1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:text="ผลกระทบที่มีต่อ \nระบบนิเวศวิทยา"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ส่งผลกระทบต่อสิ่งมีชีวิตต่างๆที่จำเป็นจะต้องปรับตัวเพื่อเอาตัวรอดจากสภาพแวดล้อมที่เปลี่ยนไป " />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="เมื่ออุณหภูมิสูงขึ้นก็ส่งผลให้น้ำแข็งขั้วโลกละลายเมื่อน้ำแข็งจำนวนมากละลายลงก็ทำให้ปริมาณน้ำทะเลในโลกของเรานั้นสูงขึ้นซึ่งส่งผลโดยตรงเลยก็คือทำให้น้ำท่วม นอกจากนั้นปริมาณน้ำที่เพิ่มขึ้นมาบวกกับอุณหภูมิที่สูงขึ้นส่งผลให้ระบบนิเวศของท้องทะเลเปลี่ยนไปทำให้สัตว์น้ำจำนวนมากปรับตัวไม่ได้และจะต้องตายลงไป"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/bg_other_cause_health" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:text="ผลกระทบในด้าน \n ของสุขภาพ"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="เมื่อสัตว์น้ำมีจำนวนน้อยลงก็ทำให้สูญเสียรายได้จากการจับสัตว์น้ำ แหล่งท่องเที่ยวใต้น้ำที่เคยสวยงามที่เคยมีก็หมดไป ทำให้ส่งผลกระทบต่อธุรกิจการท่องเที่ยว อีกทั้งการเกษตรก็ได้รับผลกระทบไปด้วย ปริมาณพืชผลที่เคยผลิตได้มากมายก็ลดน้อยไป ส่งผลให้อาหารการกินแพงขึ้น และสินค้าขาดตลาด " />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ภัยพิบัติที่รุนแรงยังส่งผลให้เกิดความเสียหายแก่โรงงานและแหล่งอุตสาหกรรมอีกด้วยจะเห็นได้จากน้ำท่วมครั้งใหญ่เมื่อปี 2554 ที่โรงงานและนิคมอุตสาหกรรมหลายแห่งได้รับความเสียหายอีกทั้งยังต้องใช้งบเพิ่มขึ้นเพื่อใช้ในการป้องกันภัยพิบัติที่อาจจะเกิดขึ้นอีกในอนาคตและยังส่งผลต่อความเชื่อมั่นของผู้ลงทุนด้วย"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/bg_other_cause_2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:text="ผลกระทบที่มีต่อ \n ระบบเศรษฐกิจ"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="อุณหภูมิของโลกที่สูงขึ้นนั้นส่งผลให้เกิดสภาวะที่เหมาะสมของการดำรงชีวิตของแบคทีเรียและศัตรูพืชหลายๆชนิด ซึ่งทำให้ในอนาคตจะมีผู้ที่ติดเชื้อและล้มป่วยมากขึ้น" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ภัยพิบัติต่างๆทำให้การดำรงชีวิตนั้นยากลำบากมากขึ้นอย่างเช่นการเกิดอุทกภัยทำให้เกิดการปนเปื้อนของสิ่งสกปรกในน้ำที่เราใช้อุปโภคบริโภคอาหารมีราคาแพงขึ้น ทำให้ผู้คนได้รับสารอาหารไม่เพียงพอ และทำให้ร่างกายไม่แข็งแรง ยกตัวอย่างประเทศที่ขาดแคลนอาหารและน้ำดื่มในแถบแอฟริกาบางประเทศ"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

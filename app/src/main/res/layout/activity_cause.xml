@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4c4e3a"
+    tools:context="com.example.centaepoint.lokronguide.CauseActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg_cause1"
+        android:adjustViewBounds="true"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="สาเหตุภาวะโลกร้อน"
+            android:textColor="#fff"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#fff"
+            android:text="เกิดจากก๊าซเรือนกระจกที่เพิ่มขึ้นจากการทำกิจกรรม
+ต่างๆของมนุษย์เช่นเผาผลาญถ่านหินและเชื้อเพลิงจึงทำให้ก๊าซเรือนกระจกลอยขึ้นไปบนชั้นบรรยากาศของ
+โลกทำให้รังสีของดวงอาทิตย์ที่ควรจะสะท้อนกลับออก
+ไปกลับถูกก๊าซเรือนกระจกเหล่านี้กักเก็บไว้ทำให้
+อุณหภูมิของโลกค่อยๆสูงขึ้นจากเดิม ์"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg_cause2"
+        android:adjustViewBounds="true"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

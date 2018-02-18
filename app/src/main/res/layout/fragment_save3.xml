@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#97c9be"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SAVE THE WORLD YOUR LIFE"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/save3img"
+                />
+            <View
+                android:layout_width="150dp"
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="#fff"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ถุงผ้า ลด ภาวะโลกร้อน"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:textColor="#000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:textSize="15sp"
+                    android:text="อย่างที่เราทราบกันดีว่าถุงพลาสติกนั้นทำให้เกิดขยะขึ้นบนโลกของเรามาก
+มายแถมยังใช้วลาย่อยสลายนานถึง 450ปีฉะนั้นจึงมีคนที่มองเห็นถึงปัญหานี้และได้ผลิตถุงผ้าออกมาให้พวกเราได้ใช้กันเพื่อที่จะรณรงค์ในการลดใช้ถุงพลาสติก"/>
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

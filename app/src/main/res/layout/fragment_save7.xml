@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#8cd7f7"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SAVE THE WORLD YOUR LIFE"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/save7img"
+                />
+            <View
+                android:layout_width="150dp"
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="#fff"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ปลูกต้นไม้"
+                    android:textSize="25sp"
+                    android:layout_gravity="center"
+                    android:textColor="#000"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:textSize="15sp"
+                    android:text="ในกระบวนการหายใจของพื้ชนั้นเปรียบเสมือนเครื่องฟอกอากาศที่ช่วยให้เกิดการเคลื่อนย้ายก๊าซพิษจากสภาพแวดล้อมภายในอาคารบ้านเรือนโดยใบไม้จะดูดรับก๊าซคาร์บอนไอออกไซด์ และเคลื่อย้ายสารประกอบเคมีต่างๆของต้นไปยังส่วนอื่นๆแล้วจะคายออกมาเป็นก๊าซออกซินเจนเพื่อให้มนุษย์และสัตว์โลกได้ดำเนินชีวิตอยู่ได้"/>
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
